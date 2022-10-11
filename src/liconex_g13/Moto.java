@@ -9,6 +9,7 @@ package liconex_g13;
  *
  * @author hugoa
  */
-public class Moto {
+public class Moto extends Vehiculo {
+    private boolean espejos;
     
 }

@@ -5,10 +5,15 @@
  */
 package liconex_g13;
 
+import java.time.LocalDate;
+
 /**
  *
  * @author hugoa
  */
-public class Auto extends Vehiculo{
-    private int cantidadpuertas;
+public class Persona {
+
+    private int DNI;
+    private LocalDate fechanacimiento;
+    private String nombres, apellido;
 }

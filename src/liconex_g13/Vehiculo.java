@@ -9,6 +9,7 @@ package liconex_g13;
  *
  * @author hugoa
  */
-public class Vehiculo {
-    
+public abstract class Vehiculo {
+    protected String patente, marca;
+    protected int cilindrada;
 }
