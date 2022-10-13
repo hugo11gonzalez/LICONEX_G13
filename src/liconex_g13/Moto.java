@@ -11,5 +11,23 @@ package liconex_g13;
  */
 public class Moto extends Vehiculo {
     private boolean espejos;
+
+    public Moto(boolean espejos, String patente, String marca, int cilindrada) {
+        super(patente, marca, cilindrada);
+        this.espejos = espejos;
+    }
+
+    public boolean isEspejos() {
+        return espejos;
+    }
+
+    public void setEspejos(boolean espejos) {
+        this.espejos = espejos;
+    }
+
+    
+
+  
+    
     
 }

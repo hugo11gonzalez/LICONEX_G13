@@ -11,4 +11,18 @@ package liconex_g13;
  */
 public class Auto extends Vehiculo{
     private int cantidadpuertas;
+
+    public Auto(int cantidadpuertas, String patente, String marca, int cilindrada) {
+        super(patente, marca, cilindrada);
+        this.cantidadpuertas = cantidadpuertas;
+    }
+
+    public int getCantidadpuertas() {
+        return cantidadpuertas;
+    }
+
+    public void setCantidadpuertas(int cantidadpuertas) {
+        this.cantidadpuertas = cantidadpuertas;
+    }
+    
 }
